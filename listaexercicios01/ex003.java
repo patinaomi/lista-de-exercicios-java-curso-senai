@@ -1,7 +1,9 @@
+package listaexercicios01;
+
 import java.util.Scanner;
 
-public class Menu {
-    ContaBancaria c1 = new ContaBancaria();
+public class ex003 {
+    ex001 c1 = new ex001();
 
     public void novoMenu() {
         int op = 0;

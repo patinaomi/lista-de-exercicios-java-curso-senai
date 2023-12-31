@@ -1,9 +1,11 @@
+package listaexercicios01;
+
 import java.util.Locale;
 import java.util.Scanner;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class ContaBancaria {
+public class ex001 {
     private String nome;
     private String tipoConta;
     private int numConta;
@@ -13,7 +15,7 @@ public class ContaBancaria {
     DateTimeFormatter formatador = DateTimeFormatter.ofPattern("dd/MM/yyyy - HH:mm:ss");
     String dataFormatada = dataHora.format(formatador);
 
-    public ContaBancaria() {
+    public ex001() {
 
     }
 
