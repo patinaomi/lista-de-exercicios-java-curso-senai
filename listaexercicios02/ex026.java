@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class ex026 {
     public static void menorNum(float[] vetor) {
-        for(int i=0; i<vetor.length; i++) {
-            float menor = vetor[i];
+        float menor = vetor[0];
 
+        for(int i=0; i<vetor.length; i++) {
             if (vetor[i] < menor) {
                 menor = vetor[i];
             }
-            System.out.println(menor);
         }
+        System.out.println("Menor número: "+ menor);
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
